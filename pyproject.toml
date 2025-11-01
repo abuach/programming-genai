@@ -1,0 +1,20 @@
+[project]
+name = "programming-genai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "docutils~=0.20",
+    "ghp-import>=2.1.0",
+    "jupyter>=1.1.1",
+    "jupyter-book>=2.0.0a0",
+    "matplotlib>=3.10.7",
+    "mplfonts>=0.0.10",
+    "numpy>=2.3.4",
+    "pandas>=2.3.3",
+    "pydata-sphinx-theme>=0.13.3",
+    "sphinx==7.0.1",
+    "sphinx-proof>=0.3.0",
+    "sphinxcontrib-bibtex==2.6.5",
+]

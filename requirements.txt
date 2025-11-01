@@ -1,4 +1,5 @@
-jupyter-book==1.0.4
+jupyter
+jupyter-book>=2.0.0a0
 matplotlib
 numpy
 pandas
@@ -8,3 +9,4 @@ sphinxcontrib-bibtex==2.6.5
 sphinx-proof
 docutils~=0.20
 mplfonts
+ghp-import
