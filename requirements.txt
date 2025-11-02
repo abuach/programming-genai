@@ -10,3 +10,4 @@ sphinx-proof
 docutils~=0.20
 mplfonts
 ghp-import
+ollama

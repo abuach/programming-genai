@@ -13,7 +13,7 @@ project:
     - file: cover.md
     - file: front.ipynb
     - file: intro.ipynb
-    - file: chapter1.ipynb
+    - file: tokenization.ipynb
     - file: chapter2.ipynb
     - file: chapter3.ipynb
     - file: chapter4.ipynb

@@ -4,6 +4,6 @@
 :class: dark-light
 ```
 
-**A book about differential privacy, for programmers**
+**A book about generative AI, for programmers**
 
-**By Joseph P. Near and Chiké Abuah**
+**By Chiké Abuah**

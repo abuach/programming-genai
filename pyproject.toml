@@ -12,9 +12,11 @@ dependencies = [
     "matplotlib>=3.10.7",
     "mplfonts>=0.0.10",
     "numpy>=2.3.4",
+    "ollama>=0.6.0",
     "pandas>=2.3.3",
     "pydata-sphinx-theme>=0.13.3",
     "sphinx==7.0.1",
     "sphinx-proof>=0.3.0",
     "sphinxcontrib-bibtex==2.6.5",
+    "tiktoken>=0.12.0",
 ]
