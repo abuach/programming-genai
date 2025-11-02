@@ -25,22 +25,6 @@ project:
     - file: front.ipynb
     - file: intro.ipynb
     - file: tokenization.ipynb
-    - file: chapter2.ipynb
-    - file: chapter3.ipynb
-    - file: chapter4.ipynb
-    - file: chapter5.ipynb
-    - file: chapter6.ipynb
-    - file: chapter7.ipynb
-    - file: chapter8.ipynb
-    - file: chapter9.ipynb
-    - file: chapter10.ipynb
-    - file: chapter11.ipynb
-    - file: chapter12.ipynb
-    - file: chapter13.ipynb
-    - file: chapter14.ipynb
-    - file: chapter15.ipynb
-    - file: further.ipynb
-    - file: license.md
     
 site:
   template: book-theme
