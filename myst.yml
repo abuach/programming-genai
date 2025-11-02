@@ -3,7 +3,6 @@ version: 1
 project:
   id: 4e52edc4-eaba-4ff2-9b66-b5bfaf77ecc8
   title: Programming Generative AI
-  date: 2025-11-01
   copyright: "© 2025 Chiké Abuah"
   description: >
     A practical introduction to programming Generative AI, with a focus on
@@ -14,12 +13,7 @@ project:
     - Generative 
     - Programming
   authors:
-    - name: Chiké Abuah 
-      email: chike.abuah@wallawalla.edu
-      affiliations: 
-        - Walla Walla University
-        - Harvard University
-        - University of Vermont
+    - name: Chiké Abuah
   github: https://github.com/abuach/programming-genai
   thumbnail: logo.png 
   banner: logo.png 

@@ -2,6 +2,4 @@
 :class: dark-light
 ```
 
-**A book about generative AI, for programmers**
-
-**By Chiké Abuah**
+**A practical introduction to programming Generative AI, with a focus on Ollama and the Python programming language.**
