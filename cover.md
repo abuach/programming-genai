@@ -19,7 +19,6 @@
 
 <div>
   <p>Please use the following to cite the book:</p>
-
 	<div id="citation">
 	  @book{abuah_2025,<br>
           &nbsp;&nbsp; title={Programming Generative AI},<br>
