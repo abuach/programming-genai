@@ -18,7 +18,7 @@
   color: #111827;
 ">
   <div style="font-size: 1rem; color: #1e3a8a; font-weight: bold; margin-bottom: 0.5rem;">
-    Abuah, Chiké. <em>Programming Generative AI.</em> Vol. 1, 2025. 
+    Abuah, Chiké. <em>Programming Generative AI.</em> Vol. 1, 2025.<br>
     <a href="https://abuach.github.io/programming-genai/" target="_blank" style="color:#1d4ed8; text-decoration:none;">https://abuach.github.io/programming-genai/</a>
   </div>
   <pre style="
