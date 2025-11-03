@@ -17,9 +17,8 @@
 
 </style>
 
-<p>Please use the following to cite the book:</p>
-
 <div id="citation">
+  <p>Please use the following to cite the book:</p>
     @book{abuah_2025,<br>
         &nbsp;&nbsp; title={Programming Generative AI},<br>
         &nbsp;&nbsp; author={Abuah, Chiké},<br>
