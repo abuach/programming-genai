@@ -24,6 +24,7 @@ project:
     - file: cover.md
     - file: front.ipynb
     - file: intro.ipynb
+    - file: pe.ipynb
     - file: tokenization.ipynb
     
 site:

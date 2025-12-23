@@ -15,8 +15,13 @@ dependencies = [
     "ollama>=0.6.0",
     "pandas>=2.3.3",
     "pydata-sphinx-theme>=0.13.3",
+    "seaborn>=0.13.2",
     "sphinx==7.0.1",
     "sphinx-proof>=0.3.0",
     "sphinxcontrib-bibtex==2.6.5",
     "tiktoken>=0.12.0",
+    "torch>=2.9.0",
+    "torchaudio>=2.9.0",
+    "torchvision>=0.24.0",
+    "transformers>=4.57.1",
 ]
