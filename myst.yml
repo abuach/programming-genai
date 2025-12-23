@@ -24,8 +24,8 @@ project:
     - file: cover.md
     - file: front.ipynb
     - file: intro.ipynb
-    - file: pe.ipynb
-    - file: tokenization.ipynb
+    - file: prompting.ipynb
+    - file: tokens.ipynb
     
 site:
   template: book-theme
