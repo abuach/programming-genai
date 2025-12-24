@@ -1,0 +1,16 @@
+- front
+- intro 
+- prompting
+- tokens
+- semantics 
+- code
+- alignment 
+- thinking 
+- rlhf 
+- attention 
+- vision 
+- augmentation 
+- efficiency
+- further 
+- design (& deployment)
+- privacy & security

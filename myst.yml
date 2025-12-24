@@ -26,6 +26,7 @@ project:
     - file: intro.ipynb
     - file: prompting.ipynb
     - file: tokens.ipynb
+    - file: semantics.ipynb
     
 site:
   template: book-theme
