@@ -3,15 +3,20 @@ version: 1
 project:
   id: 4e52edc4-eaba-4ff2-9b66-b5bfaf77ecc8
   title: Programming Generative AI
-  copyright: "© 2025 Chiké Abuah"
+  copyright: "© 2026 Chiké Abuah"
   description: >
-    A practical introduction to programming Generative AI, with a focus on
+    A practical introduction to Generative AI, with a focus on
     Ollama and the Python programming language.
   language: en
   keywords:
     - AI 
     - Generative 
     - Programming
+    - Python
+    - Privacy 
+    - Security 
+    - Verification
+    - Semantics
   authors:
     - name: Chiké Abuah
   github: https://github.com/abuach/programming-genai
@@ -27,7 +32,10 @@ project:
     - file: prompting.ipynb
     - file: tokens.ipynb
     - file: semantics.ipynb
-    
+    - file: metacoding.ipynb
+    - file: further.ipynb
+bibliography:
+  - references.bib
 site:
   template: book-theme
   options:
