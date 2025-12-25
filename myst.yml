@@ -2,11 +2,10 @@
 version: 1
 project:
   id: 4e52edc4-eaba-4ff2-9b66-b5bfaf77ecc8
-  title: Programming Generative AI
+  title: Programming GenAI
   copyright: "© 2026 Chiké Abuah"
   description: >
-    A practical introduction to Generative AI, with a focus on
-    Ollama and the Python programming language.
+    A practical introduction to programming with GenAI using Python
   language: en
   keywords:
     - AI 

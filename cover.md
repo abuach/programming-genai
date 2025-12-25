@@ -2,7 +2,7 @@
 :class: dark-light
 ```
 
-**A practical introduction to programming Generative AI, with a focus on Ollama and the Python programming language.**
+**A practical introduction to programming with GenAI using Python**
 
 
 <div style="
