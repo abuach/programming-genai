@@ -33,6 +33,7 @@ project:
     - file: semantics.ipynb
     - file: metacoding.ipynb
     - file: privacy.ipynb
+    - file: efficiency.ipynb
     - file: research.ipynb
 bibliography:
   - references.bib
