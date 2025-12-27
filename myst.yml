@@ -32,7 +32,8 @@ project:
     - file: tokens.ipynb
     - file: semantics.ipynb
     - file: metacoding.ipynb
-    - file: further.ipynb
+    - file: privacy.ipynb
+    - file: research.ipynb
 bibliography:
   - references.bib
 site:
