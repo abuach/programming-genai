@@ -32,6 +32,7 @@ project:
     - file: tokens.ipynb
     - file: semantics.ipynb
     - file: metacoding.ipynb
+    - file: agentic.ipynb 
     - file: privacy.ipynb
     - file: efficiency.ipynb
     - file: research.ipynb

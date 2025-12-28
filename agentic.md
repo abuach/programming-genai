@@ -6,8 +6,6 @@ Imagine you're working on a group project, and instead of just talking about wha
 
 In the early days of large language models, we were thrilled when they could answer questions and generate text. But there was always a gap: they lived in a world of words, disconnected from the tools and systems we use every day. Tool calling bridges that gap, transforming language models from eloquent conversationalists into capable assistants.
 
-> **A Quick Joke**: Why did the AI agent break up with the chatbot? Because the chatbot could only talk about changing the world, but the agent could actually do it! 🔧
-
 ## The Core Idea: Structured Function Calling
 
 At its heart, tool calling is about giving language models a structured way to say "I need to use this specific function with these specific parameters." Instead of just generating text that *describes* what should happen, the model generates structured data that your code can execute.
@@ -281,7 +279,7 @@ def thoughtful_agent(user_message):
     ]
     
     response = ollama.chat(
-        model='qwen2.5:latest',
+        model='qwen3:latest',
         messages=messages,
         tools=tools
     )
@@ -536,20 +534,3 @@ As you build your own agents, remember:
 
 The joke about AI agents isn't that they'll replace programmers—it's that they'll make us all better at programming by handling the tedious parts while we focus on the creative and strategic work. The future of software development isn't human *or* AI; it's human *and* AI, working together as a team.
 
-## Exercises
-
-1. **Build a File Manager Agent**: Create an agent with tools to list, read, and create text files in a sandboxed directory.
-
-2. **Implement Tool Versioning**: Design a system where tools can have multiple versions, and the agent specifies which version to use.
-
-3. **Create an Agent Debugger**: Build a tool that logs all agent decisions, tool calls, and results for later analysis.
-
-4. **Multi-Agent Collaboration**: Design two agents with different tool sets that can delegate tasks to each other.
-
-5. **Privacy-Preserving Agent**: Implement an agent that can redact sensitive information from tool calls and results.
-
----
-
-*"The best thing about boolean logic is that even if you're wrong, you're only off by a bit!"* 💻
-
-Happy agent building!

@@ -1,28 +1,18 @@
-- front
-- intro 
-- prompting
-- tokens
-- semantics 
-- coding
+- front ☑️
+- intro ☑️
+- prompting ☑️
+- tokens ☑️
+- semantics ☑️
+- metacoding ☑️
 - alignment 
 - thinking 
-- rlhf 
 - attention 
-- vision (multimodal) 
-- augmentation 
-- efficiency
-- further 
+- multimodal 
+- augmentation  
+- efficiency ☑️
+- research ☑️
 - design (& deployment)
-- privacy & security
+- privacy (& security) ☑️
 - tool calling & agentic 
 - verification
 
-
-### Thinking 
-- ethics 
-- decision-making 
-- inter-disciplinary 
-
-### Privacy & Security 
-- memory poisoning 
-- prompt injection
