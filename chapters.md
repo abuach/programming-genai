@@ -1,5 +1,6 @@
 - front ☑️
 - intro ☑️
+- foundations
 - prompting ☑️
 - tokens ☑️
 - semantics ☑️
@@ -13,6 +14,6 @@
 - research ☑️
 - design (& deployment)
 - privacy (& security) ☑️
-- tool calling & agentic 
+- agentic ☑️
 - verification
 

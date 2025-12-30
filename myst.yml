@@ -36,6 +36,7 @@ project:
     - file: privacy.ipynb
     - file: efficiency.ipynb
     - file: research.ipynb
+    - file: license.ipynb
 bibliography:
   - references.bib
 site:
