@@ -28,6 +28,7 @@ project:
     - file: cover.md
     - file: front.ipynb
     - file: intro.ipynb
+    - file: foundations.ipynb
     - file: prompting.ipynb
     - file: tokens.ipynb
     - file: semantics.ipynb
