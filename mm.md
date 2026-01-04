@@ -166,9 +166,9 @@ def debug_from_screenshot(error_screenshot_url, code_snippet):
     prompt = f"""This screenshot shows a runtime error. 
 
 Context code:
-```
+
 {code_snippet}
-```
+
 
 Please:
 1. Identify the error type and message

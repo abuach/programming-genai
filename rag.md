@@ -101,7 +101,7 @@ Question: {question}
 Answer the question using only the information provided above."""
 
     # Generate response
-    response = ollama.generate(model="qwen2.5:latest", prompt=prompt)
+    response = ollama.generate(model="qwen2.5-coder:latest", prompt=prompt)
     return response['response']
 
 # Test it
@@ -266,7 +266,7 @@ Original: {original_query}
 
 Alternatives (one per line):"""
     
-    response = ollama.generate(model="qwen2.5:latest", prompt=prompt)
+    response = ollama.generate(model="qwen2.5-coder:latest", prompt=prompt)
     alternatives = [original_query]  # Include original
     alternatives.extend(response['response'].strip().split('\n'))
     return [q.strip('- ').strip() for q in alternatives if q.strip()]
@@ -287,7 +287,7 @@ def hyde_retrieval(query: str, store: SimpleDocumentStore,
     """Retrieve using hypothetical document embeddings."""
     # Generate hypothetical answer
     prompt = f"Write a brief, factual answer to: {query}"
-    response = ollama.generate(model="qwen2.5:latest", prompt=prompt)
+    response = ollama.generate(model="qwen2.5-coder:latest", prompt=prompt)
     hypothetical_doc = response['response']
     
     # Embed and search with hypothetical answer
@@ -320,7 +320,7 @@ Document: {doc['text']}
 
 Respond with only a number 0-10:"""
         
-        response = ollama.generate(model="qwen2.5:latest", prompt=prompt)
+        response = ollama.generate(model="qwen2.5-coder:latest", prompt=prompt)
         try:
             score = float(response['response'].strip())
         except ValueError:
@@ -357,7 +357,7 @@ Question: {question}
 
 Answer with citations:"""
     
-    response = ollama.generate(model="qwen2.5:latest", prompt=prompt)
+    response = ollama.generate(model="qwen2.5-coder:latest", prompt=prompt)
     
     # Return answer with source texts
     answer = response['response']
@@ -397,7 +397,7 @@ Relevant information:
 User: {user_message}
 Assistant:"""
         
-        response = ollama.generate(model="qwen2.5:latest", prompt=prompt)
+        response = ollama.generate(model="qwen2.5-coder:latest", prompt=prompt)
         answer = response['response']
         
         # Update history
@@ -469,7 +469,7 @@ Faithfulness: X
 Relevance: Y
 Completeness: Z"""
     
-    response = ollama.generate(model="qwen2.5:latest", prompt=prompt)
+    response = ollama.generate(model="qwen2.5-coder:latest", prompt=prompt)
     
     # Parse scores
     scores = {}
@@ -505,7 +505,7 @@ ANSWER: [your answer] if you have enough information
 
 Response:"""
         
-        response = ollama.generate(model="qwen2.5:latest", prompt=prompt)
+        response = ollama.generate(model="qwen2.5-coder:latest", prompt=prompt)
         response_text = response['response'].strip()
         
         if response_text.startswith("ANSWER:"):
@@ -546,7 +546,7 @@ Document: {doc['text']}
 
 Respond with only YES or NO:"""
         
-        response = ollama.generate(model="qwen2.5:latest", prompt=prompt)
+        response = ollama.generate(model="qwen2.5-coder:latest", prompt=prompt)
         if "YES" in response['response'].upper():
             relevant_docs.append(doc)
     
@@ -560,7 +560,7 @@ Respond with only YES or NO:"""
     # Generate answer with relevant docs
     context = "\n\n".join([doc["text"] for doc in relevant_docs])
     prompt = f"Context: {context}\n\nQuestion: {question}\n\nAnswer:"
-    response = ollama.generate(model="qwen2.5:latest", prompt=prompt)
+    response = ollama.generate(model="qwen2.5-coder:latest", prompt=prompt)
     return response['response']
 ```
 
@@ -587,7 +587,7 @@ def private_rag_query(question: str, private_docs: List[str]) -> str:
     context = "\n".join([doc["text"] for doc in relevant])
     
     prompt = f"Context: {context}\n\nQuestion: {question}\n\nAnswer:"
-    response = ollama.generate(model="qwen2.5:latest", prompt=prompt)
+    response = ollama.generate(model="qwen2.5-coder:latest", prompt=prompt)
     return response['response']
 ```
 
@@ -620,7 +620,7 @@ def rag_with_redaction(question: str, store: SimpleDocumentStore,
     
     context = "\n\n".join(context_parts)
     prompt = f"Context: {context}\n\nQuestion: {question}\n\nAnswer:"
-    response = ollama.generate(model="qwen2.5:latest", prompt=prompt)
+    response = ollama.generate(model="qwen2.5-coder:latest", prompt=prompt)
     return response['response']
 ```
 
@@ -630,7 +630,7 @@ Let's bring everything together into a production-ready system.
 
 ```python
 class ProductionRAGSystem:
-    def __init__(self, model: str = "qwen2.5:latest"):
+    def __init__(self, model: str = "qwen2.5-coder:latest"):
         self.store = HybridSearchStore()
         self.model = model
         self.query_cache = {}
@@ -736,7 +736,7 @@ Answer: {answer}
 
 Respond with YES if answer goes beyond context, NO otherwise:"""
     
-    response = ollama.generate(model="qwen2.5:latest", prompt=prompt)
+    response = ollama.generate(model="qwen2.5-coder:latest", prompt=prompt)
     return "NO" in response['response'].upper()
 ```
 

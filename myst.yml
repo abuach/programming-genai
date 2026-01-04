@@ -16,6 +16,7 @@ project:
     - Security 
     - Verification
     - Semantics
+    - Syntax
   authors:
     - name: Chiké Abuah
   github: https://github.com/abuach/programming-genai
@@ -33,7 +34,9 @@ project:
     - file: tokens.ipynb
     - file: semantics.ipynb
     - file: metacoding.ipynb
+    - file: augmentation.ipynb
     - file: agentic.ipynb 
+    - file: mm.ipynb
     - file: privacy.ipynb
     - file: efficiency.ipynb
     - file: research.ipynb

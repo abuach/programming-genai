@@ -1,15 +1,12 @@
 - front ☑️
 - intro ☑️
-- foundations
+- foundations ☑️
 - prompting ☑️
 - tokens ☑️
 - semantics ☑️
 - metacoding ☑️
-- alignment 
-- thinking 
-- attention 
-- multimodal 
-- augmentation  
+- multimodal ☑️
+- augmentation ☑️
 - efficiency ☑️
 - research ☑️
 - design (& deployment)
