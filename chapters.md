@@ -9,7 +9,7 @@
 - augmentation ☑️
 - efficiency ☑️
 - research ☑️
-- design (& deployment)
+- design ☑️
 - privacy (& security) ☑️
 - agentic ☑️
 - verification

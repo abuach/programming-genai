@@ -37,6 +37,7 @@ project:
     - file: augmentation.ipynb
     - file: agentic.ipynb 
     - file: mm.ipynb
+    - file: design.ipynb
     - file: privacy.ipynb
     - file: efficiency.ipynb
     - file: research.ipynb
